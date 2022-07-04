@@ -2218,18 +2218,27 @@ input, select, textarea {
 		}
 
 			#main > section.dark {
-				color: #ddd;
-				color: rgba(255, 255, 255, 0.75);
+				/* color: #ddd; */
+				color: #ffffff;
+				/* color: rgba(255, 255, 255, 0.75); */
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
 					color: inherit;
+					background-color:rgb(0, 0, 0);
 				}
 
 				#main > section.dark strong {
 					color: #fff;
 					border-color: inherit;
 				}
+
+				#main > section.dark p {
+					display: table;
+					margin: 0px auto 0px auto; /* keep the table centered */
+					background-color:rgb(0, 0, 0);
+				}
+
 
 				#main > section.dark a {
 					color: #fff;

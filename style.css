@@ -192,6 +192,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
+    /* font-family: Georgia, "Times New Roman", Times, serif; */
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #2ade12;
 }
@@ -261,7 +262,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
+        font-size: 2.5em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;

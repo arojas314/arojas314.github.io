@@ -253,7 +253,7 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 14px 0;
         border: 0;
         /* background-color: transparent; */
         -webkit-transition: padding .3s;
@@ -286,12 +286,15 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('img/SB_FlowAccum.png');
+    /* background-image: url('img/SB_FlowAccum.png'); */
+    /* background-image: url('img/sb-naip-hillshade-clean.png'); */
+    background-image: url('img/sb-naip-hillshade-clean.png');
+    background-size: 45%;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
-    background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
     -o-background-size: cover;
 }
 
